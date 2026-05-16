@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+env311/
+envtest/
+myenv/
+
+# IDE
+.idea/
+
+# Flask
+instance/
+*.db
+*.sqlite
+
+# pytest
+.pytest_cache/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+
+#pycoral
+pycoral/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Faces
+.uploaded_faces/
+*.txt
