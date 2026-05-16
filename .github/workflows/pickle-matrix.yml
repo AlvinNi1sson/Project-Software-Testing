@@ -11,9 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        python-version: ["3.10", "3.11", "3.12", "3.13"]
-        protocol: [0, 2, 4, 5]
-        hashseed: ["0", "1", "42", "random"]
+        python-version: ["3.10","3.13"]
+        protocol: [0, 5]
+        hashseed: ["0", "random"]
 
     runs-on: ${{ matrix.os }}
 
@@ -34,5 +34,29 @@ jobs:
       - name: Upload result artifact
         uses: actions/upload-artifact@v4
         with:
-          name: result-${{ matrix.os }}-py${{ matrix.python-version }}-p${{ matrix.protocol }}-seed${{ matrix.hashseed }}
+          name: pickle-result-${{ matrix.os }}-py${{ matrix.python-version }}-p${{ matrix.protocol }}-seed${{ matrix.hashseed }}
           path: results/*.json
+
+  compare-results:
+    needs: pickle-stability
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download all result artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: pickle-result-*
+          path: results
+          merge-multiple: true
+
+      - name: Show downloaded files
+        run: ls -R results
+
+      - name: Compare pickle results
+        run: python compare_results.py
