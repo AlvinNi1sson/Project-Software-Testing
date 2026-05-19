@@ -32,6 +32,7 @@ jobs:
         run: python tests/pickle_matrix_runner.py
 
       - name: Upload result artifact
+        if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
           name: pickle-result-${{ matrix.os }}-py${{ matrix.python-version }}-p${{ matrix.protocol }}-seed${{ matrix.hashseed }}
@@ -39,6 +40,7 @@ jobs:
 
   compare-results:
     needs: pickle-stability
+    if: ${{ always() }}
     runs-on: ubuntu-latest
 
     steps:
