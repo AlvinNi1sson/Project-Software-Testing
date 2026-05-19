@@ -25,6 +25,13 @@ class SlotClass:
         self.x = 1
         self.y = 2
 
+    def __getstate__(self):
+        return {"x": self.x, "y": self.y}
+
+    def __setstate__(self, state):
+        self.x = state["x"]
+        self.y = state["y"]
+
 class MathFunctions:
     @staticmethod
     def add(a, b):

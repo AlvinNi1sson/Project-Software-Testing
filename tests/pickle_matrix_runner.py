@@ -11,10 +11,18 @@ from objects import get_test_objects
 
 def hash_pickle(obj, protocol):
     data = pickle.dumps(obj, protocol=protocol)
+    sha256 = hashlib.sha256(data).hexdigest()
+
+    restored = pickle.loads(data)
+    data_after_load = pickle.dumps(restored, protocol=protocol)
+    sha256_after_load = hashlib.sha256(data_after_load).hexdigest()
+
     return {
-        "sha256": hashlib.sha256(data).hexdigest(),
+        "sha256": sha256,
         "length": len(data),
         "pickle_hex": data.hex(),
+        "roundtrip_sha256": sha256_after_load,
+        "roundtrip_hash_identical": sha256 == sha256_after_load,
     }
 
 
@@ -33,10 +41,15 @@ def main():
         "objects": {},
     }
 
+    has_failure = False
+
     for name, obj in objects.items():
         try:
             result["objects"][name] = hash_pickle(obj, protocol)
+            if not result["objects"][name]["roundtrip_hash_identical"]:
+                has_failure = True
         except Exception as e:
+            has_failure = True
             result["objects"][name] = {
                 "error": type(e).__name__,
                 "message": str(e),
@@ -54,6 +67,9 @@ def main():
 
     Path(filename).write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps(result, indent=2))
+
+    if has_failure:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
