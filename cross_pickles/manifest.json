@@ -1,0 +1,201 @@
+{
+  "source_environment": {
+    "system": "Linux",
+    "platform": "Linux-6.17.0-19-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+    "protocol": 5,
+    "hashseed": "0"
+  },
+  "objects": {
+    "none": {
+      "file": "none.pkl",
+      "sha256": "6c09635decb8153d3c12e3782a69fd2eb097426f912547d351a8647b27d5580a",
+      "length": 4
+    },
+    "bool_true": {
+      "file": "bool_true.pkl",
+      "sha256": "5280fce43ea9afbd61ec2c2a16c35118af29eafa08aa2f5f714e54dc9cceb5ae",
+      "length": 4
+    },
+    "bool_false": {
+      "file": "bool_false.pkl",
+      "sha256": "132915fa0f4abd3a7939610b8d088fbbcdff866e17b5cbb2c0bdcb37782f4da2",
+      "length": 4
+    },
+    "int": {
+      "file": "int.pkl",
+      "sha256": "b7c8a7bf822f2bdf7aa1184fc92930c5991e8062007e075c072101275ed291ea",
+      "length": 5
+    },
+    "large_int": {
+      "file": "large_int.pkl",
+      "sha256": "b07b0c2204b00cc9c7ce7194610069ba1014e15ed1b73d666b62e842acc701c0",
+      "length": 56
+    },
+    "string": {
+      "file": "string.pkl",
+      "sha256": "ec98b3cc623af048a31a60eaaee6600e3f7bc57f5f7662686852c33e4e617e3d",
+      "length": 20
+    },
+    "unicode_string": {
+      "file": "unicode_string.pkl",
+      "sha256": "cdbf1c0fb6103da4cb223a6dcaa8a108e00815137ba768b9fc2ea4b3727aef23",
+      "length": 21
+    },
+    "bytes": {
+      "file": "bytes.pkl",
+      "sha256": "1532edbdffa809490aa861a3ccab838b39684cce244e3832e6873381007028fe",
+      "length": 20
+    },
+    "empty_list": {
+      "file": "empty_list.pkl",
+      "sha256": "3fe4a92ad75f98888c0fdc32304e33df0191042a9f85c4d1c59ea2ca284412c0",
+      "length": 5
+    },
+    "empty_dict": {
+      "file": "empty_dict.pkl",
+      "sha256": "bfce13fc2f13ad950016bb48ccbbbd04ce13be07c748476dde1f940fcdfa0d52",
+      "length": 5
+    },
+    "tuple": {
+      "file": "tuple.pkl",
+      "sha256": "200327faa4d41d1aa8426f5c8b40709a28924851f344150ca81066c703edf4ba",
+      "length": 20
+    },
+    "mixed_tuple": {
+      "file": "mixed_tuple.pkl",
+      "sha256": "88079b4ce46e23c64dfa167c51ee52624ad5a5613ab7a12a13be1cdc70de623d",
+      "length": 35
+    },
+    "list": {
+      "file": "list.pkl",
+      "sha256": "a684d78ed8fcb0eb553f438365b5011a166270544366b929f4e87ae25b5075b8",
+      "length": 22
+    },
+    "nested": {
+      "file": "nested.pkl",
+      "sha256": "14049bf881059da8e73fa7b3cb43b159ec227b203e2bea180b21fea64a5b0130",
+      "length": 40
+    },
+    "deeply_nested": {
+      "file": "deeply_nested.pkl",
+      "sha256": "077140f5cb3fd5b5abcbc93eebe0849f10e7047e4277064e950802e42d7156f4",
+      "length": 34
+    },
+    "dict_fixed_order": {
+      "file": "dict_fixed_order.pkl",
+      "sha256": "b5f23a770a984ae66abd0dff42fe1c6fe4f6b5dac9d03267b806f8cc92ecfe9e",
+      "length": 34
+    },
+    "dict_int_keys": {
+      "file": "dict_int_keys.pkl",
+      "sha256": "b59032c24a2fc550f8fe807583515e9f6bd87eb817b5eef0628c6cf80895b880",
+      "length": 34
+    },
+    "set_strings": {
+      "file": "set_strings.pkl",
+      "sha256": "1f319a33909ab874c41e1b7d2697b1a2a33fbf5e56267b1e0eb6b92288c646f8",
+      "length": 28
+    },
+    "set_ints": {
+      "file": "set_ints.pkl",
+      "sha256": "0b2125cf0c8137b55447e66ea95444977817f5ff9e66864ed2b3f4e77d5ee132",
+      "length": 22
+    },
+    "frozenset_strings": {
+      "file": "frozenset_strings.pkl",
+      "sha256": "83f4ba9c957fa57735593e4e3942a5b6e9cf385c131d1e73057943c345bb3048",
+      "length": 27
+    },
+    "float_zero": {
+      "file": "float_zero.pkl",
+      "sha256": "1b932989cefdb38583d481a7d425fc1cdc887af058a11add332d7d369b7efe27",
+      "length": 21
+    },
+    "float_negative_zero": {
+      "file": "float_negative_zero.pkl",
+      "sha256": "318c497b17171971d695c7941d1ff792710fa359be61ddbe6c7e0f20bb244ea3",
+      "length": 21
+    },
+    "float_nan": {
+      "file": "float_nan.pkl",
+      "sha256": "9d51ddf5364920bd3e61ebdef1946ebfae7be8ef34371c87704a69f6e6b60660",
+      "length": 21
+    },
+    "float_inf": {
+      "file": "float_inf.pkl",
+      "sha256": "23baec550585e574240d8c8668cd1580d4573704f20ae9eb2436609615d30f92",
+      "length": 21
+    },
+    "float_negative_inf": {
+      "file": "float_negative_inf.pkl",
+      "sha256": "4e9b8fd92fa7cd41071d40eeae89ff2e298b294202398cd625fdba60310eb080",
+      "length": 21
+    },
+    "float_precision": {
+      "file": "float_precision.pkl",
+      "sha256": "81d2512a4546e936b9cc1c6a5867823f8b6e7df23666b35ac47dbb3281faa1b1",
+      "length": 21
+    },
+    "complex_number": {
+      "file": "complex_number.pkl",
+      "sha256": "06e039bbc0fea64bba4b5682d0231198ccf117a65fd0cf98fe59f0597649def3",
+      "length": 57
+    },
+    "range": {
+      "file": "range.pkl",
+      "sha256": "87bd9ca060afd33d18d2e2172cb350aa6ab3ffb9f15c63e1c5315f81705a74ac",
+      "length": 43
+    },
+    "slice": {
+      "file": "slice.pkl",
+      "sha256": "2636120f20e0952f8d6239e6f3af27dc2684d51de561c009cbc261bce77c92ab",
+      "length": 43
+    },
+    "shared_reference": {
+      "file": "shared_reference.pkl",
+      "sha256": "2475d2866ccfef4168ab6d379039a6b5877a398ffbc19ee6333c31214f7f3984",
+      "length": 20
+    },
+    "shared_nested": {
+      "file": "shared_nested.pkl",
+      "sha256": "b1d71c2a363908f40794f3badcafc910ccfcdbf129e7a070eea7c40a85487d81",
+      "length": 28
+    },
+    "recursive_list": {
+      "file": "recursive_list.pkl",
+      "sha256": "3ebda89318bbee412ade820e56f24939d2f5431c89b7723e33f55f1c479e6be5",
+      "length": 17
+    },
+    "recursive_dict": {
+      "file": "recursive_dict.pkl",
+      "sha256": "8e4773e8d9510881f1cc3ec02186138cc807e5ba1eef330b4493ae33b366d124",
+      "length": 24
+    },
+    "simple_class": {
+      "file": "simple_class.pkl",
+      "sha256": "6d51b0ce9a940bed7ea43abfd4615fb5d75206a8bc1a52ef8f07f77ac4176320",
+      "length": 64
+    },
+    "slot_class": {
+      "file": "slot_class.pkl",
+      "sha256": "f1a1a5681a8518d71000da6917d126fed948719a8156646756cf4cf354909d49",
+      "length": 56
+    },
+    "math_class": {
+      "file": "math_class.pkl",
+      "sha256": "44fa071ebb6a0d29f7b021425466c40be1885d20cc0757dbbe6dcd54423f52b6",
+      "length": 43
+    },
+    "testClass_instance": {
+      "file": "testClass_instance.pkl",
+      "sha256": "ced1a94e26ad32a62fe6b1bd69f41b5bbc02ec9ad69b6b9b1e8a10a101979221",
+      "length": 348
+    },
+    "exception_object": {
+      "file": "exception_object.pkl",
+      "sha256": "54048ff5cbe48808c8af0bbb59b3f156959ebf8732da00f290ae9073169115e2",
+      "length": 55
+    }
+  }
+}

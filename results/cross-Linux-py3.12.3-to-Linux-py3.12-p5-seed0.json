@@ -1,0 +1,208 @@
+{
+  "source_environment": {
+    "system": "Linux",
+    "platform": "Linux-6.17.0-19-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+    "protocol": 5,
+    "hashseed": "0"
+  },
+  "target_environment": {
+    "system": "Linux",
+    "platform": "Linux-6.17.0-19-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+    "protocol": 5,
+    "hashseed": "0"
+  },
+  "objects": {
+    "none": {
+      "source_sha256": "6c09635decb8153d3c12e3782a69fd2eb097426f912547d351a8647b27d5580a",
+      "after_load_sha256": "6c09635decb8153d3c12e3782a69fd2eb097426f912547d351a8647b27d5580a",
+      "hash_identical_after_cross_load": true
+    },
+    "bool_true": {
+      "source_sha256": "5280fce43ea9afbd61ec2c2a16c35118af29eafa08aa2f5f714e54dc9cceb5ae",
+      "after_load_sha256": "5280fce43ea9afbd61ec2c2a16c35118af29eafa08aa2f5f714e54dc9cceb5ae",
+      "hash_identical_after_cross_load": true
+    },
+    "bool_false": {
+      "source_sha256": "132915fa0f4abd3a7939610b8d088fbbcdff866e17b5cbb2c0bdcb37782f4da2",
+      "after_load_sha256": "132915fa0f4abd3a7939610b8d088fbbcdff866e17b5cbb2c0bdcb37782f4da2",
+      "hash_identical_after_cross_load": true
+    },
+    "int": {
+      "source_sha256": "b7c8a7bf822f2bdf7aa1184fc92930c5991e8062007e075c072101275ed291ea",
+      "after_load_sha256": "b7c8a7bf822f2bdf7aa1184fc92930c5991e8062007e075c072101275ed291ea",
+      "hash_identical_after_cross_load": true
+    },
+    "large_int": {
+      "source_sha256": "b07b0c2204b00cc9c7ce7194610069ba1014e15ed1b73d666b62e842acc701c0",
+      "after_load_sha256": "b07b0c2204b00cc9c7ce7194610069ba1014e15ed1b73d666b62e842acc701c0",
+      "hash_identical_after_cross_load": true
+    },
+    "string": {
+      "source_sha256": "ec98b3cc623af048a31a60eaaee6600e3f7bc57f5f7662686852c33e4e617e3d",
+      "after_load_sha256": "ec98b3cc623af048a31a60eaaee6600e3f7bc57f5f7662686852c33e4e617e3d",
+      "hash_identical_after_cross_load": true
+    },
+    "unicode_string": {
+      "source_sha256": "cdbf1c0fb6103da4cb223a6dcaa8a108e00815137ba768b9fc2ea4b3727aef23",
+      "after_load_sha256": "cdbf1c0fb6103da4cb223a6dcaa8a108e00815137ba768b9fc2ea4b3727aef23",
+      "hash_identical_after_cross_load": true
+    },
+    "bytes": {
+      "source_sha256": "1532edbdffa809490aa861a3ccab838b39684cce244e3832e6873381007028fe",
+      "after_load_sha256": "1532edbdffa809490aa861a3ccab838b39684cce244e3832e6873381007028fe",
+      "hash_identical_after_cross_load": true
+    },
+    "empty_list": {
+      "source_sha256": "3fe4a92ad75f98888c0fdc32304e33df0191042a9f85c4d1c59ea2ca284412c0",
+      "after_load_sha256": "3fe4a92ad75f98888c0fdc32304e33df0191042a9f85c4d1c59ea2ca284412c0",
+      "hash_identical_after_cross_load": true
+    },
+    "empty_dict": {
+      "source_sha256": "bfce13fc2f13ad950016bb48ccbbbd04ce13be07c748476dde1f940fcdfa0d52",
+      "after_load_sha256": "bfce13fc2f13ad950016bb48ccbbbd04ce13be07c748476dde1f940fcdfa0d52",
+      "hash_identical_after_cross_load": true
+    },
+    "tuple": {
+      "source_sha256": "200327faa4d41d1aa8426f5c8b40709a28924851f344150ca81066c703edf4ba",
+      "after_load_sha256": "200327faa4d41d1aa8426f5c8b40709a28924851f344150ca81066c703edf4ba",
+      "hash_identical_after_cross_load": true
+    },
+    "mixed_tuple": {
+      "source_sha256": "88079b4ce46e23c64dfa167c51ee52624ad5a5613ab7a12a13be1cdc70de623d",
+      "after_load_sha256": "88079b4ce46e23c64dfa167c51ee52624ad5a5613ab7a12a13be1cdc70de623d",
+      "hash_identical_after_cross_load": true
+    },
+    "list": {
+      "source_sha256": "a684d78ed8fcb0eb553f438365b5011a166270544366b929f4e87ae25b5075b8",
+      "after_load_sha256": "a684d78ed8fcb0eb553f438365b5011a166270544366b929f4e87ae25b5075b8",
+      "hash_identical_after_cross_load": true
+    },
+    "nested": {
+      "source_sha256": "14049bf881059da8e73fa7b3cb43b159ec227b203e2bea180b21fea64a5b0130",
+      "after_load_sha256": "14049bf881059da8e73fa7b3cb43b159ec227b203e2bea180b21fea64a5b0130",
+      "hash_identical_after_cross_load": true
+    },
+    "deeply_nested": {
+      "source_sha256": "077140f5cb3fd5b5abcbc93eebe0849f10e7047e4277064e950802e42d7156f4",
+      "after_load_sha256": "077140f5cb3fd5b5abcbc93eebe0849f10e7047e4277064e950802e42d7156f4",
+      "hash_identical_after_cross_load": true
+    },
+    "dict_fixed_order": {
+      "source_sha256": "b5f23a770a984ae66abd0dff42fe1c6fe4f6b5dac9d03267b806f8cc92ecfe9e",
+      "after_load_sha256": "b5f23a770a984ae66abd0dff42fe1c6fe4f6b5dac9d03267b806f8cc92ecfe9e",
+      "hash_identical_after_cross_load": true
+    },
+    "dict_int_keys": {
+      "source_sha256": "b59032c24a2fc550f8fe807583515e9f6bd87eb817b5eef0628c6cf80895b880",
+      "after_load_sha256": "b59032c24a2fc550f8fe807583515e9f6bd87eb817b5eef0628c6cf80895b880",
+      "hash_identical_after_cross_load": true
+    },
+    "set_strings": {
+      "source_sha256": "1f319a33909ab874c41e1b7d2697b1a2a33fbf5e56267b1e0eb6b92288c646f8",
+      "after_load_sha256": "1f319a33909ab874c41e1b7d2697b1a2a33fbf5e56267b1e0eb6b92288c646f8",
+      "hash_identical_after_cross_load": true
+    },
+    "set_ints": {
+      "source_sha256": "0b2125cf0c8137b55447e66ea95444977817f5ff9e66864ed2b3f4e77d5ee132",
+      "after_load_sha256": "0b2125cf0c8137b55447e66ea95444977817f5ff9e66864ed2b3f4e77d5ee132",
+      "hash_identical_after_cross_load": true
+    },
+    "frozenset_strings": {
+      "source_sha256": "83f4ba9c957fa57735593e4e3942a5b6e9cf385c131d1e73057943c345bb3048",
+      "after_load_sha256": "83f4ba9c957fa57735593e4e3942a5b6e9cf385c131d1e73057943c345bb3048",
+      "hash_identical_after_cross_load": true
+    },
+    "float_zero": {
+      "source_sha256": "1b932989cefdb38583d481a7d425fc1cdc887af058a11add332d7d369b7efe27",
+      "after_load_sha256": "1b932989cefdb38583d481a7d425fc1cdc887af058a11add332d7d369b7efe27",
+      "hash_identical_after_cross_load": true
+    },
+    "float_negative_zero": {
+      "source_sha256": "318c497b17171971d695c7941d1ff792710fa359be61ddbe6c7e0f20bb244ea3",
+      "after_load_sha256": "318c497b17171971d695c7941d1ff792710fa359be61ddbe6c7e0f20bb244ea3",
+      "hash_identical_after_cross_load": true
+    },
+    "float_nan": {
+      "source_sha256": "9d51ddf5364920bd3e61ebdef1946ebfae7be8ef34371c87704a69f6e6b60660",
+      "after_load_sha256": "9d51ddf5364920bd3e61ebdef1946ebfae7be8ef34371c87704a69f6e6b60660",
+      "hash_identical_after_cross_load": true
+    },
+    "float_inf": {
+      "source_sha256": "23baec550585e574240d8c8668cd1580d4573704f20ae9eb2436609615d30f92",
+      "after_load_sha256": "23baec550585e574240d8c8668cd1580d4573704f20ae9eb2436609615d30f92",
+      "hash_identical_after_cross_load": true
+    },
+    "float_negative_inf": {
+      "source_sha256": "4e9b8fd92fa7cd41071d40eeae89ff2e298b294202398cd625fdba60310eb080",
+      "after_load_sha256": "4e9b8fd92fa7cd41071d40eeae89ff2e298b294202398cd625fdba60310eb080",
+      "hash_identical_after_cross_load": true
+    },
+    "float_precision": {
+      "source_sha256": "81d2512a4546e936b9cc1c6a5867823f8b6e7df23666b35ac47dbb3281faa1b1",
+      "after_load_sha256": "81d2512a4546e936b9cc1c6a5867823f8b6e7df23666b35ac47dbb3281faa1b1",
+      "hash_identical_after_cross_load": true
+    },
+    "complex_number": {
+      "source_sha256": "06e039bbc0fea64bba4b5682d0231198ccf117a65fd0cf98fe59f0597649def3",
+      "after_load_sha256": "06e039bbc0fea64bba4b5682d0231198ccf117a65fd0cf98fe59f0597649def3",
+      "hash_identical_after_cross_load": true
+    },
+    "range": {
+      "source_sha256": "87bd9ca060afd33d18d2e2172cb350aa6ab3ffb9f15c63e1c5315f81705a74ac",
+      "after_load_sha256": "87bd9ca060afd33d18d2e2172cb350aa6ab3ffb9f15c63e1c5315f81705a74ac",
+      "hash_identical_after_cross_load": true
+    },
+    "slice": {
+      "source_sha256": "2636120f20e0952f8d6239e6f3af27dc2684d51de561c009cbc261bce77c92ab",
+      "after_load_sha256": "2636120f20e0952f8d6239e6f3af27dc2684d51de561c009cbc261bce77c92ab",
+      "hash_identical_after_cross_load": true
+    },
+    "shared_reference": {
+      "source_sha256": "2475d2866ccfef4168ab6d379039a6b5877a398ffbc19ee6333c31214f7f3984",
+      "after_load_sha256": "2475d2866ccfef4168ab6d379039a6b5877a398ffbc19ee6333c31214f7f3984",
+      "hash_identical_after_cross_load": true
+    },
+    "shared_nested": {
+      "source_sha256": "b1d71c2a363908f40794f3badcafc910ccfcdbf129e7a070eea7c40a85487d81",
+      "after_load_sha256": "b1d71c2a363908f40794f3badcafc910ccfcdbf129e7a070eea7c40a85487d81",
+      "hash_identical_after_cross_load": true
+    },
+    "recursive_list": {
+      "source_sha256": "3ebda89318bbee412ade820e56f24939d2f5431c89b7723e33f55f1c479e6be5",
+      "after_load_sha256": "3ebda89318bbee412ade820e56f24939d2f5431c89b7723e33f55f1c479e6be5",
+      "hash_identical_after_cross_load": true
+    },
+    "recursive_dict": {
+      "source_sha256": "8e4773e8d9510881f1cc3ec02186138cc807e5ba1eef330b4493ae33b366d124",
+      "after_load_sha256": "8e4773e8d9510881f1cc3ec02186138cc807e5ba1eef330b4493ae33b366d124",
+      "hash_identical_after_cross_load": true
+    },
+    "simple_class": {
+      "source_sha256": "6d51b0ce9a940bed7ea43abfd4615fb5d75206a8bc1a52ef8f07f77ac4176320",
+      "after_load_sha256": "6d51b0ce9a940bed7ea43abfd4615fb5d75206a8bc1a52ef8f07f77ac4176320",
+      "hash_identical_after_cross_load": true
+    },
+    "slot_class": {
+      "source_sha256": "f1a1a5681a8518d71000da6917d126fed948719a8156646756cf4cf354909d49",
+      "after_load_sha256": "f1a1a5681a8518d71000da6917d126fed948719a8156646756cf4cf354909d49",
+      "hash_identical_after_cross_load": true
+    },
+    "math_class": {
+      "source_sha256": "44fa071ebb6a0d29f7b021425466c40be1885d20cc0757dbbe6dcd54423f52b6",
+      "after_load_sha256": "44fa071ebb6a0d29f7b021425466c40be1885d20cc0757dbbe6dcd54423f52b6",
+      "hash_identical_after_cross_load": true
+    },
+    "testClass_instance": {
+      "source_sha256": "ced1a94e26ad32a62fe6b1bd69f41b5bbc02ec9ad69b6b9b1e8a10a101979221",
+      "after_load_sha256": "ced1a94e26ad32a62fe6b1bd69f41b5bbc02ec9ad69b6b9b1e8a10a101979221",
+      "hash_identical_after_cross_load": true
+    },
+    "exception_object": {
+      "source_sha256": "54048ff5cbe48808c8af0bbb59b3f156959ebf8732da00f290ae9073169115e2",
+      "after_load_sha256": "54048ff5cbe48808c8af0bbb59b3f156959ebf8732da00f290ae9073169115e2",
+      "hash_identical_after_cross_load": true
+    }
+  }
+}
