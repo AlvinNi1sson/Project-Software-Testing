@@ -70,7 +70,7 @@ def get_test_objects():
         # Containers
         "empty_list": [],
         "empty_dict": {},
-        "tuple": (1, 2, 3),
+        "tuple": (1, 6,2,"hello"),
         "mixed_tuple": (None, True, 42, "hello", b"bytes"),
         "list": [1, 2, 3],
         "nested": {"x": [1, 2, {"y": (3, 4)}]},
