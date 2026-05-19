@@ -77,6 +77,7 @@ def get_test_objects():
         "float_nan": float("nan"),
         "float_inf": float("inf"),
         "float_negative_inf": float("-inf"),
+        "float_precision": 1.234567890123456789,
 
         # Other builtins
         "complex_number": 3 + 4j,
