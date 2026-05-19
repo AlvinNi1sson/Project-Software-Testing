@@ -1,6 +1,10 @@
 import unittest
 
-
+def x():
+    x =1
+    def y():
+        return x
+    return y
 
 def recursive_list():
     x = []
@@ -115,6 +119,9 @@ def get_test_objects():
 
         # Exceptions
         "exception_object": ValueError("test error"),
+
+        # Nested Functions
+        "nested_function": x(),
 
         
         
