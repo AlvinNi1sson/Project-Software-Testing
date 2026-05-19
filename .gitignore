@@ -38,7 +38,7 @@ pycoral/
 # OS
 .DS_Store
 Thumbs.db
-
+.codex/
 # Faces
 .uploaded_faces/
 *.txt
