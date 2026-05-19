@@ -1,3 +1,5 @@
+import unittest
+
 def recursive_list():
     x = []
     x.append(x)
@@ -21,6 +23,19 @@ class SlotClass:
         self.x = 1
         self.y = 2
 
+class MathFunctions:
+    @staticmethod
+    def add(a, b):
+        return a + b
+    @staticmethod
+    def subtract(a, b):
+        return a - b
+
+class testMathFunctions(unittest.TestCase):
+    def test_addition(self):
+        self.assertEqual(MathFunctions.add(1, 1), 2)
+    def test_subtraction(self):
+        self.assertEqual(MathFunctions.subtract(5, 3), 2)
 
 def get_test_objects():
     shared = []
@@ -79,7 +94,12 @@ def get_test_objects():
         # Classes
         "simple_class": SimpleClass(),
         "slot_class": SlotClass(),
+        "math_class": MathFunctions(),
+        "testClass_instance": testMathFunctions(),
 
         # Exceptions
         "exception_object": ValueError("test error"),
+
+        
+        
     }
