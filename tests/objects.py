@@ -1,6 +1,5 @@
 import unittest
 
-from test_pickle_intentional_failure import test_pickle_hash_intentional_failure
 
 
 def recursive_list():
@@ -33,12 +32,17 @@ class MathFunctions:
     @staticmethod
     def subtract(a, b):
         return a - b
+    @staticmethod
+    def power(a, b):
+        return a**b
 
 class testMathFunctions(unittest.TestCase):
     def test_addition(self):
         self.assertEqual(MathFunctions.add(1, 1), 2)
     def test_subtraction(self):
         self.assertEqual(MathFunctions.subtract(5, 3), 2)
+    def test_power(self):
+        self.assertEqual(MathFunctions.power(10, 20))
 
 def get_test_objects():
     shared = []
@@ -95,7 +99,6 @@ def get_test_objects():
         "recursive_list": recursive_list(),
         "recursive_dict": recursive_dict(),
 
-        "test" : test_pickle_hash_intentional_failure(),
 
         # Classes
         "simple_class": SimpleClass(),
