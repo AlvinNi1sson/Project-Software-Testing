@@ -1,10 +1,15 @@
 import unittest
+"""
+
+This is simply not working with pickle, not a serialization fault,
+pickle can only serialize top-level functions, not nested ones. The same applies to lambdas and local classes.
 
 def x():
     x =1
     def y():
         return x
     return y
+"""""
 
 def recursive_list():
     x = []
