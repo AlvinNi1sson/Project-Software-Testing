@@ -1,5 +1,8 @@
 import unittest
 
+from test_pickle_intentional_failure import test_pickle_hash_intentional_failure
+
+
 def recursive_list():
     x = []
     x.append(x)
@@ -91,6 +94,8 @@ def get_test_objects():
         # Recursive structures
         "recursive_list": recursive_list(),
         "recursive_dict": recursive_dict(),
+
+        "test" : test_pickle_hash_intentional_failure(),
 
         # Classes
         "simple_class": SimpleClass(),
