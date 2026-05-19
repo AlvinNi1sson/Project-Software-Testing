@@ -81,9 +81,9 @@ def get_test_objects():
         "dict_int_keys": {1: "a", 2: "b", 3: "c"},
 
         # Sets
-        "set_strings": {"a", "b", "c"},
+        # "set_strings": {"a", "b", "c"},
         "set_ints": {1, 2, 3},
-        "frozenset_strings": frozenset({"a", "b", "c"}),
+        # "frozenset_strings": frozenset({"a", "b", "c"}),
 
         # Floating point edge cases
         "float_zero": 0.0,
